@@ -26,7 +26,7 @@ footer span {
 .weather p {
   font-size: 40px;
 }
-.above-the-fold article {
+.above-the-fold-article {
   display: inline-block;
 }
 .weather {
@@ -40,18 +40,8 @@ footer span {
   width: 200px;
 }
 .click-bait article {
-  display: inline-block;
   width: 250px;
   margin: 16px;
   padding: 16px;
   box-sizing: border-box;
-}
-.below-the-fold img {
-  display: inline-block;
-  margin: 16px;
-  padding: 16px;
-  width: 200px;
-}
-.below-the-fold div {
-  width: 500px;
 }
