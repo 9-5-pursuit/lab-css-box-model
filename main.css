@@ -1,0 +1,103 @@
+/*Set all paragraph text to have a font of sans-serif.*/
+p {
+    font-family: sans-serif;
+}
+
+/*Set all heading text to have a font of serif.*/
+/*Set all heading text to be centered.*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: serif;
+    text-align: center;
+}
+
+/* Set all anchor elements to have no text decoration.*/
+/*Set all anchor elements to have a color of #4242EA.*/
+
+a {
+    
+    text-decoration: none;
+    color:#4242EA;
+}
+/*Set all unordered lists to have no list-style.*/
+ul {
+    list-style: none;
+}
+
+/*Set all span elements inside the footer to have a font-weight of 700.*/
+
+span {
+    font-weight: 700;
+}
+
+/*Set all paragraph text inside the element with the class of weather to have a font size of 40px.*/
+
+.weather p{
+    font-size: 40px;
+}
+
+/*Set all articles inside the .above-the-fold element to have a display value of inline-block.*/
+
+.above-the-fold article{
+    display: inline-block;
+}
+/* Set the .weather element to have a width of 300px.
+ Set the .weather element to have a 2px gray border on all sides.*/
+
+ .weather {
+    width: 300px;
+    border: 2px solid gray;
+ }
+
+ /*Set the .breaking-news element to have a top/down padding of 0px and a left/right padding of 30px.*/
+
+.breaking-news {
+    padding: 0px 30px;
+}
+
+/* Set the image inside of the .breaking-news element to have a width of 200px.*/
+.breaking-news img{
+    width: 200px;
+}
+
+/*Set all articles inside the element with the class of .click-bait to have a display of inline-block.
+ Set all articles inside the element with the class of .click-bait to have a width of 250px.
+ Set all articles inside the element with the class of .click-bait to have 16px of margin and padding on all sides.
+ Set all articles inside the element with the class of .click-bait to have box-sizing set to border-box.*/
+
+.click-bait article{
+    display: inline-block;
+    width: 250px;
+    padding: 16px;
+    margin: 16px;
+    box-sizing: border-box;
+ }
+
+ /*Set all articles inside the element with the class of .below-the-fold to have a display of inline-block.*/
+
+.below-the-fold article{
+    display: inline-block;
+
+ }
+
+ /*Set the image inside the element with the class of .below-the-fold to have a display of inline-block.
+ Set the image inside the element with the class of .below-the-fold to have 16px of margin and padding on all sides.
+ Set the image inside the element with the class of .below-the-fold to have a width of 200px.*/
+
+.below-the-fold img{
+    display: inline-block;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+ }
+
+ /*Set the div inside the element with the class of .below-the-fold to have a width of 500px.*/
+
+.below-the-fold div{
+    width: 500px;
+ }
