@@ -120,7 +120,7 @@ describe("Styling", () => {
       cy.get(".below-the-fold img").each((img) => {
         cy.wrap(img).should("have.css", "margin", "16px");
         cy.wrap(img).should("have.css", "padding", "16px");
-      });
+      }); 
     });
 
     it("The img inside the element with a class of 'below-the-fold' has a width of 200px", () => {
