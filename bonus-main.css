@@ -1,0 +1,36 @@
+/*
+.above-the-fold {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: baseline;
+
+}
+
+.click-bait {
+    display: flex;
+    justify-content: center;
+}
+*/
+
+.below-the-fold {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.breaking-news img {
+    display: flex;
+    align-self: center;
+}
+
+.below-the-fold img {
+    align-self: flex-start;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
