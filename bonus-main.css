@@ -1,0 +1,23 @@
+.above-the-fold div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 3;
+}
+.above-the-fold img {
+  float: inline-end;
+  display: flex;
+
+  justify-content: right;
+}
+
+/* .below-the-fold {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: right;
+}
+.below-the-fold h2 {
+    al
+} */
+/* flex-direction: row; */
