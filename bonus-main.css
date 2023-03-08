@@ -1,0 +1,39 @@
+.above-the-fold{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.weather{
+    text-align: center;
+}
+.breaking-news{
+    flex: 1;
+    text-align: center;
+}
+.breaking-news p{
+    text-align: left;
+}
+.click-bait{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.click-bait article{
+    flex: 1;
+}
+.click-bait ol li{
+    margin-bottom: 10px;
+}
+.below-the-fold article{
+    display: flex;
+    align-items: center;
+}footer{
+    font-family: sans-serif;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    margin-bottom: 10px;
+}

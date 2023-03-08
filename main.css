@@ -1,6 +1,4 @@
-*{
-    border: 1px solid gold;
-}
+
 p{
     font-family: sans-serif;
 }
@@ -18,9 +16,9 @@ a{
     color: #4242ea;
 }
 ul{
-    list-style-type: none;
+    list-style: none;
 }
- li span{
+ footer span{
     font-weight: 700;
 }
 .weather p{
@@ -29,7 +27,7 @@ ul{
 .above-the-fold article{
     display: inline-block;
 }
-.weather{
+.weather {
     width: 300px;
     border: 2px solid gray;
 }
