@@ -33,6 +33,10 @@ footer span {
   padding: 0px 30px;
 }
 .breaking-news img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   width: 200px;
 }
 .click-bait article {
